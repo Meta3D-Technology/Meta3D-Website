@@ -6,15 +6,16 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: "Meta3D：Web3D开发协作平台",
+  tagline: "“Web3D应用和引擎”开发从此轻而易举",
+  // url: 'https://your-docusaurus-test-site.com',
+  url: 'TODO',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  // favicon: 'img/favicon.ico',
+  organizationName: 'Meta3D', // Usually your GitHub org/user name.
+  projectName: 'Meta3D-Website', // Usually your repo name.
 
   presets: [
     [
@@ -43,23 +44,31 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
+        title: 'Meta3D',
+        // logo: {
+        //   alt: 'My Site Logo',
+        //   src: 'img/logo.svg',
+        // },
         items: [
+          {
+            href: 'https://meta3d-4g18u7z10c8427f9-1302358347.tcloudbaseapp.com/Login',
+            label: '进入平台',
+          },
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Meta3D-Technology/Meta3D/discussions',
+            label: '论坛',
+          },
+          {
+            href: 'https://github.com/Meta3D-Technology/Meta3D',
             label: 'GitHub',
-            position: 'right',
+            // position: 'right',
           },
         ],
       },
@@ -67,7 +76,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
             items: [
               {
                 label: 'Tutorial',
@@ -76,37 +85,33 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '论坛',
+                href: 'https://github.com/Meta3D-Technology/Meta3D/discussions',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: '加QQ群',
+                href: 'https://jq.qq.com/?_wv=1027&k=F4zQKWBb',
               },
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '知乎',
+                href: 'https://www.zhihu.com/people/dreamforest-yyc',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '博客',
+                href: 'https://www.cnblogs.com/chaogex/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

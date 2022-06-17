@@ -1,4 +1,4 @@
-* TODO add and de																																																																																																							77777777777777777777777777777777777777777777777777777777777777777777777loy website
+* TODO add and deploy website
 
 
 * TODO prepare Meta3D
