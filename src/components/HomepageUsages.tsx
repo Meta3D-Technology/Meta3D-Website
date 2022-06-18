@@ -29,15 +29,15 @@ const UsageList: UsageItem[] = [
       </>
     ),
   },
-  {
-    title: '智慧城市、游戏等Web3D应用',
-    image: '/img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        {/* 如编辑器、智慧城市、游戏等各种类型的Web3D应用 */}
-      </>
-    ),
-  },
+  // {
+  //   title: '智慧城市、游戏等Web3D应用',
+  //   image: '/img/undraw_docusaurus_tree.svg',
+  //   description: (
+  //     <>
+  //       {/* 如编辑器、智慧城市、游戏等各种类型的Web3D应用 */}
+  //     </>
+  //   ),
+  // },
 ];
 
 function Usage({ title, image, description }: UsageItem) {

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Meta3D",
-  tagline: "“Web3D应用”低代码开发平台",
+  title: "Meta3D（第一个内测版本）",
+  tagline: "Web3D低代码开发平台",
   // url: 'https://your-docusaurus-test-site.com',
   url: 'TODO',
   baseUrl: '/',
@@ -80,15 +80,15 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: '文档',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+          // {
+          //   title: '文档',
+          //   items: [
+          //     {
+          //       label: '首页',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
           {
             title: '社区',
             items: [

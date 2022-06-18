@@ -1,8 +1,8 @@
 * TODO add and deploy website
 
-** TODO edit doc
+** DONE edit doc
 
-** TODO add doc
+** DONE add doc
 
 Tutorial:
 how to:
@@ -23,6 +23,12 @@ publish app
 
 
 from 《Meta3D介绍》
+
+
+
+# TODO change 应用 to 编辑器：
+# 修改首页、文档
+# rename Platform ->App to Editor, app to editor
 
 
 
