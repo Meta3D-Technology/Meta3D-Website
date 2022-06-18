@@ -8,9 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "Meta3D（第一个内测版本）",
   tagline: "Web3D低代码开发平台",
-  // url: 'https://your-docusaurus-test-site.com',
-  url: 'TODO',
-  baseUrl: '/',
+  url: 'https://meta3d-4g18u7z10c8427f9-1302358347.tcloudbaseapp.com/website',
+  baseUrl: '/website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   // favicon: 'img/favicon.ico',
