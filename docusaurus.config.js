@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Meta3D：Web3D开发协作平台",
-  tagline: "“Web3D应用和引擎”开发从此轻而易举",
+  title: "Meta3D",
+  tagline: "“Web3D应用”低代码开发平台",
   // url: 'https://your-docusaurus-test-site.com',
   url: 'TODO',
   baseUrl: '/',
@@ -66,6 +66,11 @@ const config = {
             label: '论坛',
           },
           {
+            href: 'https://www.zhihu.com/column/c_1521448592849649664',
+            label: '博客',
+          },
+          
+          {
             href: 'https://github.com/Meta3D-Technology/Meta3D',
             label: 'GitHub',
             // position: 'right',
@@ -101,11 +106,11 @@ const config = {
             title: '更多',
             items: [
               {
-                label: '知乎',
+                label: '开发者的知乎',
                 href: 'https://www.zhihu.com/people/dreamforest-yyc',
               },
               {
-                label: '博客',
+                label: '开发者的博客',
                 href: 'https://www.cnblogs.com/chaogex/',
               },
             ],

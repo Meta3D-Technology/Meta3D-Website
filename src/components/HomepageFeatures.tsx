@@ -11,10 +11,23 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: '一切皆扩展',
-    image: '/img/undraw_docusaurus_mountain.svg',
+    // TODO all: replace image
+    image: '/img/undraw_docusaurus_tree.svg',
     description: (
       <>
+       {/* 一切皆由扩展组成，扩展本身也可以再次扩展 */}
        通过组装多个扩展，积木式搭建自己的“Web3D应用和引擎”
+      </>
+    ),
+  },
+  {
+    // title: '低代码开发',
+    title: '只开发一次',
+    image: '/img/undraw_docusaurus_tree.svg',
+    description: (
+      <>
+        一个需求只实现一次，到处复用
+       {/* 通过组装多个扩展，积木式搭建自己的“Web3D应用和引擎” */}
       </>
     ),
   },
@@ -24,15 +37,6 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
 通过分享扩展和协作开发，共建和谐共赢生态
-      </>
-    ),
-  },
-  {
-    title: '只做一次',
-    image: '/img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        一个需求只实现一次，轻而易举地复用
       </>
     ),
   },
