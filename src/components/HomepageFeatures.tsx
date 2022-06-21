@@ -31,12 +31,21 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+//   {
+//     title: '开放的生态',
+//     image: '/website/img/Meta3D封面.jpg',
+//     description: (
+//       <>
+// 通过分享扩展和协作开发，共建和谐共赢生态
+//       </>
+//     ),
+//   },
   {
-    title: '开放的生态',
+    title: '完全开源',
     image: '/website/img/Meta3D封面.jpg',
     description: (
       <>
-通过分享扩展和协作开发，共建和谐共赢生态
+      100%代码开源
       </>
     ),
   },
