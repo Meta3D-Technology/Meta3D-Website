@@ -12,7 +12,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: '一切皆扩展',
     // TODO all: replace image
-    image: '/website/img/Meta3D封面.jpg',
+    image: '/img/Meta3D封面.jpg',
     description: (
       <>
        {/* 一切皆由扩展组成，扩展本身也可以再次扩展 */}
@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
   {
     // title: '低代码开发',
     title: '只开发一次',
-    image: '/website/img/Meta3D封面.jpg',
+    image: '/img/Meta3D封面.jpg',
     description: (
       <>
         一个需求只实现一次，到处复用
@@ -33,7 +33,7 @@ const FeatureList: FeatureItem[] = [
   },
 //   {
 //     title: '开放的生态',
-//     image: '/website/img/Meta3D封面.jpg',
+//     image: '/img/Meta3D封面.jpg',
 //     description: (
 //       <>
 // 通过分享扩展和协作开发，共建和谐共赢生态
@@ -42,7 +42,7 @@ const FeatureList: FeatureItem[] = [
 //   },
   {
     title: '完全开源',
-    image: '/website/img/Meta3D封面.jpg',
+    image: '/img/Meta3D封面.jpg',
     description: (
       <>
       100%代码开源

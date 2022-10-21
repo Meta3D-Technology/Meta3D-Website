@@ -12,7 +12,7 @@ const UsageList: UsageItem[] = [
   {
     title: 'Web3D编辑器',
     // TODO all: replace image
-    image: '/website/img/Meta3D封面.jpg',
+    image: '/img/Meta3D封面.jpg',
     description: (
       <>
         {/* 如编辑器、智慧城市、游戏等各种类型的Web3D应用 */}
@@ -22,7 +22,7 @@ const UsageList: UsageItem[] = [
   {
     // title: '低代码开发',
     title: 'Web3D引擎',
-    image: '/website/img/Meta3D封面.jpg',
+    image: '/img/Meta3D封面.jpg',
     description: (
       <>
         {/* 通过组合多个扩展来开发自己定制化的Web3D引擎 */}
@@ -31,7 +31,7 @@ const UsageList: UsageItem[] = [
   },
   // {
   //   title: '智慧城市、游戏等Web3D应用',
-  //   image: '/website/img/Meta3D封面.jpg',
+  //   image: '/img/Meta3D封面.jpg',
   //   description: (
   //     <>
   //       {/* 如编辑器、智慧城市、游戏等各种类型的Web3D应用 */}
