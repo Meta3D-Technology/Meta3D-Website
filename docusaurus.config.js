@@ -50,7 +50,7 @@ const config = {
         // },
         items: [
           {
-            href: 'https://meta3d-4g18u7z10c8427f9-1302358347.tcloudbaseapp.com/Login',
+            href: 'https://meta3d-platform-production.4everland.app/',
             label: '进入平台',
           },
           {
