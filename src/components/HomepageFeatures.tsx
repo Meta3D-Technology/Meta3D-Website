@@ -41,11 +41,11 @@ const FeatureList: FeatureItem[] = [
 //     ),
 //   },
   {
-    title: '完全开源',
+    title: 'Web3 Dapp',
     image: '/img/Meta3D封面.jpg',
     description: (
       <>
-      100%代码开源
+      100%代码开源；用户数据归用户所有；直接用Web3钱包登录
       </>
     ),
   },
