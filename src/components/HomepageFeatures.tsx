@@ -45,7 +45,7 @@ const FeatureList: FeatureItem[] = [
     image: '/img/Meta3D封面.jpg',
     description: (
       <>
-      100%代码开源；用户数据归用户所有；直接用Web3钱包登录
+      100%代码开源；直接用Web3钱包登录
       </>
     ),
   },
