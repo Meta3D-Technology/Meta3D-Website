@@ -50,8 +50,8 @@ const config = {
         // },
         items: [
           {
-            // href: 'https://meta3d-platform-production.4everland.app/',
-            href: 'https://meta3d-production-6eaj4630a6b9e7-1302358347.tcloudbaseapp.com',
+            href: 'https://meta3d-platform-production.4everland.app/',
+            // href: 'https://meta3d-production-6eaj4630a6b9e7-1302358347.tcloudbaseapp.com',
             label: '进入平台',
           },
           {
