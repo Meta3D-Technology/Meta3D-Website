@@ -15,8 +15,8 @@ const FeatureList: FeatureItem[] = [
     image: '/img/Meta3D封面.jpg',
     description: (
       <>
-       {/* 一切皆由扩展组成，扩展本身也可以再次扩展 */}
-       通过组装多个扩展，积木式搭建自己的“Web3D编辑器和引擎”
+        {/* 一切皆由扩展组成，扩展本身也可以再次扩展 */}
+        通过组装多个扩展，积木式搭建自己的“Web3D编辑器和引擎”
       </>
     ),
   },
@@ -27,31 +27,32 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         一个需求只实现一次，到处复用
-       {/* 通过组装多个扩展，积木式搭建自己的“Web3D应用和引擎” */}
+        {/* 通过组装多个扩展，积木式搭建自己的“Web3D应用和引擎” */}
       </>
     ),
   },
-//   {
-//     title: '开放的生态',
-//     image: '/img/Meta3D封面.jpg',
-//     description: (
-//       <>
-// 通过分享扩展和协作开发，共建和谐共赢生态
-//       </>
-//     ),
-//   },
+  //   {
+  //     title: '开放的生态',
+  //     image: '/img/Meta3D封面.jpg',
+  //     description: (
+  //       <>
+  // 通过分享扩展和协作开发，共建和谐共赢生态
+  //       </>
+  //     ),
+  //   },
   {
     title: 'Web3 Dapp',
     image: '/img/Meta3D封面.jpg',
     description: (
       <>
-      100%代码开源；直接用Web3钱包登录
+        {/* 100%代码开源；直接用Web3钱包登录 */}
+        完全开源，构建共享互助开放的Web3D生态
       </>
     ),
   },
 ];
 
-function Feature({title, image, description}: FeatureItem) {
+function Feature({ title, image, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
