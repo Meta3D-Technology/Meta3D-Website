@@ -56,7 +56,7 @@ const config = {
           },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '简介',
             position: 'left',
             label: '文档',
           },
