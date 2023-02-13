@@ -97,6 +97,10 @@ const config = {
                 href: 'https://github.com/Meta3D-Technology/Meta3D/discussions',
               },
               {
+                label: '与我们交流加QQ群',
+                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=nS2aXzVnD2MsrwaZinPdE5KzGXdpMDX_&jump_from=webapi&authKey=lRRtao0aHyzsDRgakbPNvh/BYkFRnGfUQRBrsAbd3NftO7nzpx7AREz+wC8ZJuDS',
+              },
+              {
                 label: '一起开发Meta3D加QQ群',
                 href: 'https://qm.qq.com/cgi-bin/qm/qr?k=Kiaj6UDk6FuKDPHKpHYruzB8eAt0xRRy&jump_from=webapi&authKey=D6yCua8jRdfWgAQqSSRMRQvaYxGVL5XN671Cz/g2CSYRJ9WPPgNPZIzcCZKwQZBC',
               },
