@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Meta3D（内测版本）",
-  tagline: "Web3D低代码开发平台",
+  title: "开源Web3D低代码平台",
+  tagline: "致力于建设共享互助开放的Web3D生态，让Web3D引擎和编辑器开发轻而易举",
   url: 'https://meta3d-4g18u7z10c8427f9-1302358347.tcloudbaseapp.com/website',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  // favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.ico',
   organizationName: 'Meta3D', // Usually your GitHub org/user name.
   projectName: 'Meta3D-Website', // Usually your repo name.
 
@@ -97,8 +97,12 @@ const config = {
                 href: 'https://github.com/Meta3D-Technology/Meta3D/discussions',
               },
               {
-                label: '加QQ群',
-                href: 'https://jq.qq.com/?_wv=1027&k=F4zQKWBb',
+                label: '一起开发Meta3D加QQ群',
+                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=Kiaj6UDk6FuKDPHKpHYruzB8eAt0xRRy&jump_from=webapi&authKey=D6yCua8jRdfWgAQqSSRMRQvaYxGVL5XN671Cz/g2CSYRJ9WPPgNPZIzcCZKwQZBC',
+              },
+              {
+                label: '商务合作加QQ群',
+                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=mpAhyrgUZVkwxpip-cYlHUO9i_kZR-IF&jump_from=webapi&authKey=bEP7ZI5TBy8RLW9qc3jxqnMCTdMCQMtjis3l0Uf/6ntG2cF94neaIdOztVWNbuRi',
               },
             ],
           },
