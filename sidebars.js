@@ -43,7 +43,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        "简介", "快速预览", "搭建您的第一个编辑器", "搭建您的第一个引擎"
+        "简介", "快速预览", "搭建您的第一个编辑器", "搭建您的第一个引擎", "FAQ"
       ],
     },
     {
