@@ -69,7 +69,7 @@ const config = {
             href: 'https://www.zhihu.com/column/c_1521448592849649664',
             label: '博客',
           },
-          
+
           {
             href: 'https://github.com/Meta3D-Technology/Meta3D',
             label: 'GitHub',
@@ -98,16 +98,17 @@ const config = {
               },
               {
                 label: '与我们交流加QQ群',
-                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=nS2aXzVnD2MsrwaZinPdE5KzGXdpMDX_&jump_from=webapi&authKey=lRRtao0aHyzsDRgakbPNvh/BYkFRnGfUQRBrsAbd3NftO7nzpx7AREz+wC8ZJuDS',
+                // href: 'https://qm.qq.com/cgi-bin/qm/qr?k=nS2aXzVnD2MsrwaZinPdE5KzGXdpMDX_&jump_from=webapi&authKey=lRRtao0aHyzsDRgakbPNvh/BYkFRnGfUQRBrsAbd3NftO7nzpx7AREz+wC8ZJuDS',
+                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=SaSgwsyiccUjc3Mx3Jqliv9HJnHxL-WI&jump_from=webapi&authKey=+EQRAdLQ80spfX++pA3UB4erf6cxC+Mo4jH6bfovhdE7MOvI5WBUljCZ6roGaNZh'
               },
               {
                 label: '一起开发Meta3D加QQ群',
                 href: 'https://qm.qq.com/cgi-bin/qm/qr?k=Kiaj6UDk6FuKDPHKpHYruzB8eAt0xRRy&jump_from=webapi&authKey=D6yCua8jRdfWgAQqSSRMRQvaYxGVL5XN671Cz/g2CSYRJ9WPPgNPZIzcCZKwQZBC',
               },
-              {
-                label: '商务合作加QQ群',
-                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=mpAhyrgUZVkwxpip-cYlHUO9i_kZR-IF&jump_from=webapi&authKey=bEP7ZI5TBy8RLW9qc3jxqnMCTdMCQMtjis3l0Uf/6ntG2cF94neaIdOztVWNbuRi',
-              },
+              // {
+              //   label: '商务合作加QQ群',
+              //   href: 'https://qm.qq.com/cgi-bin/qm/qr?k=mpAhyrgUZVkwxpip-cYlHUO9i_kZR-IF&jump_from=webapi&authKey=bEP7ZI5TBy8RLW9qc3jxqnMCTdMCQMtjis3l0Uf/6ntG2cF94neaIdOztVWNbuRi',
+              // },
             ],
           },
           {
