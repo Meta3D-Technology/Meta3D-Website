@@ -52,7 +52,18 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        "搭建有事件响应和数据绑定的编辑器", "搭建使用了引擎的编辑器", "修改编辑器页面"
+        "搭建有事件响应和数据绑定的编辑器", "搭建使用了引擎的编辑器", "修改编辑器页面",
+
+        {
+          type: 'category',
+          label: '自定义案例',
+          collapsible: true,
+          collapsed: false,
+          items: [
+            "搭建您的自定义引擎：实现WebGPU光栅化管线绘制三角形"
+          ],
+        },
+
       ],
     },
     {
