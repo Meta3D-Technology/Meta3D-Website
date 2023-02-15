@@ -8,8 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: "开源Web3D低代码平台",
   tagline: "致力于建设共享互助开放的Web3D生态，让Web3D引擎和编辑器开发轻而易举",
-  url: 'https://meta3d-4g18u7z10c8427f9-1302358347.tcloudbaseapp.com/website',
+  // url: 'https://meta3d-4g18u7z10c8427f9-1302358347.tcloudbaseapp.com/website',
+  url: 'https://meta3d-website.4everland.app/',
   baseUrl: '/',
+  // baseUrl: '/website/build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -51,7 +53,7 @@ const config = {
         items: [
           {
             href: 'https://meta3d-platform-production.4everland.app/',
-            // href: 'https://meta3d-production-6eaj4630a6b9e7-1302358347.tcloudbaseapp.com',
+            // href: 'https://meta3d-production-6eaj4630a6b9e7-1302358347.tcloudbaseapp.com/platform/',
             label: '进入平台',
           },
           {

@@ -12,7 +12,9 @@ const FeatureList: FeatureItem[] = [
   {
     title: '一切皆扩展',
     // TODO all: replace image
-    image: '/img/Meta3D封面.jpg',
+    // image: '/img/Meta3D封面.jpg',
+    // image: 'https://img2023.cnblogs.com/blog/419321/202302/419321-20230216053729215-360412937.jpg',
+    image: '/img/积木.jpg',
     description: (
       <>
         {/* 一切皆由扩展组成，扩展本身也可以再次扩展 */}
@@ -23,7 +25,7 @@ const FeatureList: FeatureItem[] = [
   {
     // title: '低代码开发',
     title: '只开发一次',
-    image: '/img/Meta3D封面.jpg',
+    image: '/img/复用.jpg',
     description: (
       <>
         一个需求只实现一次，到处复用
@@ -42,7 +44,7 @@ const FeatureList: FeatureItem[] = [
   //   },
   {
     title: 'Web3 Dapp',
-    image: '/img/Meta3D封面.jpg',
+    image: '/img/web3.jpg',
     description: (
       <>
         {/* 100%代码开源；直接用Web3钱包登录 */}
