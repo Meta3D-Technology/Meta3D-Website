@@ -52,7 +52,7 @@ const config = {
         // },
         items: [
           {
-            href: 'https://meta3d-platform-production.4everland.app/',
+            href: 'https://meta3d-production-5eol5gce9a6b9c-1302358347.tcloudbaseapp.com/',
             // href: 'https://meta3d-production-6eaj4630a6b9e7-1302358347.tcloudbaseapp.com/platform/',
             label: '进入平台',
           },
@@ -100,8 +100,7 @@ const config = {
               },
               {
                 label: '与我们交流加QQ群',
-                // href: 'https://qm.qq.com/cgi-bin/qm/qr?k=nS2aXzVnD2MsrwaZinPdE5KzGXdpMDX_&jump_from=webapi&authKey=lRRtao0aHyzsDRgakbPNvh/BYkFRnGfUQRBrsAbd3NftO7nzpx7AREz+wC8ZJuDS',
-                href: 'https://qm.qq.com/cgi-bin/qm/qr?k=SaSgwsyiccUjc3Mx3Jqliv9HJnHxL-WI&jump_from=webapi&authKey=+EQRAdLQ80spfX++pA3UB4erf6cxC+Mo4jH6bfovhdE7MOvI5WBUljCZ6roGaNZh'
+                href: 'http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=r1Z4Z5uToIO1dISsXvdJvQOtFr3IoPJx&authKey=Ft1KpywYZrlO4yUGQj5jCliI4DaVf4hkM5jiiZtm195Ei4bSNiwo1SHEogLcrc%2Fp&noverify=0&group_code=568338939'
               },
               {
                 label: '一起开发Meta3D加QQ群',
