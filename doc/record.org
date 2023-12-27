@@ -10,6 +10,30 @@ use guide
 
 
 
+TODO 搭建编辑器:
+概况
+# 具体介绍
+# 扩展编辑器
+示例
+    加入Material Inspector
+
+参考：
+    UI Controls
+    编辑器模板
+        完整的编辑器
+
+
+
+
+
+TODO 写逻辑代码:
+概况
+Input
+Action
+参考：
+    API
+    Input Type
+
 
 
 TODO move related doc to platform as guide doc
@@ -30,6 +54,7 @@ TODO move related doc to platform as guide doc
       how to extend
     after finish guide:
       给出弹出文档，包括开发完整编辑器等
+    first import app
     初次运行 模板时(in ShowApp or UserCenter or RunElementVisualController):
       包括：操作演示视频、glb模型资源、event资源
 
