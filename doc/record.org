@@ -140,22 +140,9 @@ TODO website: finish all TODOs
 
 
 
-* TODO 文档优化
+* DONE 文档优化
 
 TODO resize 简介->图片 size
 
 TODO 压缩所有的图片
 
-
-
-
-* TODO more
-
-- TODO update README
-  update snapshot
-  add gif
-
-  add contributors: show avater
-
-
-TODO release: show changelog
