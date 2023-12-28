@@ -7,7 +7,7 @@ sidebar_position: 1
 UI Control使用IMGUI来绘制，因此整个编辑器就是一个canvas
 
 在“Selected UI Controls”中加入UI Control后，会自动选中它，并在右侧显示它的Inspector，如下图所示：
-TODO tu
+![](/img/搭建编辑器/UIControlInspector.jpg)
 
 其中：    
 

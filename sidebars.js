@@ -40,7 +40,7 @@ const sidebars = {
     {
       type: 'category',
       label: '入门',
-      collapsible: true,
+      collapsible: false,
       collapsed: false,
       items: [
         "简介", "创建第一个编辑器", "导入模板", "FAQ"
@@ -49,7 +49,7 @@ const sidebars = {
     {
       type: 'category',
       label: '搭建编辑器',
-      collapsible: true,
+      collapsible: false,
       collapsed: false,
       items: [
         {
@@ -60,7 +60,7 @@ const sidebars = {
         {
           type: 'category',
           label: "示例",
-          collapsible: true,
+          collapsible: false,
           collapsed: false,
           items: [
             {
@@ -73,13 +73,13 @@ const sidebars = {
         {
           type: 'category',
           label: "参考",
-          collapsible: true,
+          collapsible: false,
           collapsed: false,
           items: [
             {
               type: 'category',
               label: "模板",
-              collapsible: true,
+              collapsible: false,
               collapsed: false,
               items: [
                 {
@@ -92,7 +92,7 @@ const sidebars = {
             {
               type: 'category',
               label: "UI Controls",
-              collapsible: true,
+              collapsible: false,
               collapsed: false,
               items: [
                 {
@@ -110,7 +110,7 @@ const sidebars = {
     {
       type: 'category',
       label: '写代码',
-      collapsible: true,
+      collapsible: false,
       collapsed: false,
       items: [
         {
@@ -121,7 +121,7 @@ const sidebars = {
         {
           type: 'category',
           label: "参考",
-          collapsible: true,
+          collapsible: false,
           collapsed: false,
           items: [
             {
@@ -132,7 +132,7 @@ const sidebars = {
             {
               type: 'doc',
               label: "UI Control需要的数据的类型",
-              id: "写代码-参考-UI Control需要的数据的类型"
+              id: "写代码-参考-UI_Control需要的数据的类型"
             },
           ],
         },

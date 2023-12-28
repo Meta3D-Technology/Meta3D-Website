@@ -10,15 +10,15 @@ sidebar_position: 1
 
 Material Inspector是跟Transform Inspector平级的面板，用于修改材质。这里只包括“修改材质的Diffuse颜色”的功能
 
-加入后，运行编辑器的截图如下：
-TODO tu
+加入后，运行编辑器的截图如下，其中红框处是Material Inspector：
+![](/img/搭建编辑器/MaterialInspector.jpg)
 
 
 ## 具体步骤
 
 首先，我们导入模板，并加入多个UI Control，具体步骤如下：
 
-- 导入“完整的编辑器”，具体步骤详见[导入模板](/导入模板)
+- 导入“完整的编辑器”，具体步骤详见[导入模板](导入模板)
 - 选中“Selected UI Controls”中的“Inspector”   
 这是Inspector面板，目前有一个设置Game Name的文字输入框、一个Transform Inspector
 <!-- - 加入UI Control：窗口 -->
@@ -26,8 +26,6 @@ TODO tu
 这将会加入到Inspector中
 - 修改右侧的Rect的宽、高分别为400、30
 - 修改右侧的Specific->label为Material Inspector、isOpen为true、cond为Once
-<!-- 如下图红框所示：    
-TODO tu -->
 - 加入UI Control：数字输入框    
 这将会加入到Material Inspector中
 - 修改右侧的Rect的宽为90
