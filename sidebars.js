@@ -43,36 +43,99 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        "简介", "快速预览", "搭建您的第一个编辑器", "搭建您的第一个引擎", "FAQ"
+        "简介", "创建第一个编辑器", "导入模板", "FAQ"
       ],
     },
     {
       type: 'category',
-      label: '案例',
+      label: '搭建编辑器',
       collapsible: true,
       collapsed: false,
       items: [
-        "搭建有事件响应和数据绑定的编辑器", "搭建使用了引擎的编辑器", "修改编辑器页面",
-
+        {
+          type: 'doc',
+          label: "概况",
+          id: "搭建编辑器-概况"
+        },
         {
           type: 'category',
-          label: '自定义案例',
+          label: "示例",
           collapsible: true,
           collapsed: false,
           items: [
-            "搭建您的自定义引擎：实现WebGPU光栅化管线绘制三角形"
+            {
+              type: 'doc',
+              label: "加入Material Inspector",
+              id: "搭建编辑器-示例-加入Material Inspector"
+            }
           ],
         },
+        {
+          type: 'category',
+          label: "参考",
+          collapsible: true,
+          collapsed: false,
+          items: [
+            {
+              type: 'category',
+              label: "模板",
+              collapsible: true,
+              collapsed: false,
+              items: [
+                {
+                  type: 'doc',
+                  label: "完整的编辑器",
+                  id: "搭建编辑器-参考-编辑器模板-完整的编辑器"
+                }
+              ],
+            },
+            {
+              type: 'category',
+              label: "UI Controls",
+              collapsible: true,
+              collapsed: false,
+              items: [
+                {
+                  type: 'doc',
+                  label: "概况",
+                  id: "搭建编辑器-参考-UI Controls-概况"
+                }
+              ],
+            },
 
+          ],
+        },
       ],
     },
     {
       type: 'category',
-      label: '自定义',
+      label: '写代码',
       collapsible: true,
       collapsed: false,
       items: [
-        "开发和发布扩展协议", "开发和发布扩展", "开发和发布贡献协议和贡献", "测试和调试扩展、贡献"
+        {
+          type: 'doc',
+          label: "概况",
+          id: "写代码-概况"
+        },
+        {
+          type: 'category',
+          label: "参考",
+          collapsible: true,
+          collapsed: false,
+          items: [
+            {
+              type: 'doc',
+              label: "Package的API",
+              id: "写代码-参考-Package的API"
+            },
+            {
+              type: 'doc',
+              label: "UI Control需要的数据的类型",
+              id: "写代码-参考-UI Control需要的数据的类型"
+            },
+          ],
+        },
       ],
     },
   ],

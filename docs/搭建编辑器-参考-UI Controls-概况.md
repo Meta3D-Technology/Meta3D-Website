@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 概况
 
-UI Control是使用IMGUI来绘制的，所以整个编辑器就是一个canvas
+UI Control使用IMGUI来绘制，因此整个编辑器就是一个canvas
 
 在“Selected UI Controls”中加入UI Control后，会自动选中它，并在右侧显示它的Inspector，如下图所示：
 TODO tu
@@ -16,7 +16,7 @@ TODO tu
 - Input    
 选择通过哪个Input来获得数据
 - Specific    
-进行配置
+设置配置
 - Event    
-将会显示支持哪些事件，并选择对应的Action来处理该事件
+显示支持的事件，可选择对应的Action来处理该事件
 

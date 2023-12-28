@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # 加入Material Inspector
@@ -16,10 +16,9 @@ TODO tu
 
 ## 具体步骤
 
-首先，我们加入对应的UI Control，具体步骤如下：
+首先，我们导入模板，并加入多个UI Control，具体步骤如下：
 
 - 导入“完整的编辑器”，具体步骤详见[导入模板](/导入模板)
-<!-- - 选中“Selected UI Controls”中的root -->
 - 选中“Selected UI Controls”中的“Inspector”   
 这是Inspector面板，目前有一个设置Game Name的文字输入框、一个Transform Inspector
 <!-- - 加入UI Control：窗口 -->
@@ -36,7 +35,7 @@ TODO tu -->
 
 然后，我们加入Input，为Diffuse Color这个数字输入框提供数据，具体步骤如下：
 
-- 在左侧的Inputs中，加入一个Input
+- 展开左侧的Inputs，加入一个Input
 - 将其代码替换为：    
 ```ts
 import { api } from "meta3d-type"
@@ -67,7 +66,7 @@ export let getContribute = (api: api) => {
 
 然后，我们加入Action，处理Diffuse Color这个数字输入框的input_change事件，具体步骤如下：
 
-- 在左侧的Actions中，加入一个Action
+- 展开左侧的Actions，加入一个Action
 - 将其代码替换为：    
 ```ts
 import { api } from "meta3d-type"
@@ -137,13 +136,13 @@ export let getContribute = (api: api) => {
 };
 ```
 - 选中“Selected UI Controls”中的“Diffuse Collor”   
-- 选择右侧Event->input_change的下拉框为SetDiffuseColor
+- 选择右侧的Event->input_change的下拉框为SetDiffuseColor
 
 
 最后，我们运行并发布编辑器，具体步骤如下：
 
 - 运行编辑器    
-可以这样来运行编辑器中测试：首先点击左侧Scene Treed中的Cube；然后在右侧的Material Inspector中修改颜色；在Scene View中查看修改后的效果
+可以在运行编辑器中进行运行测试：首先点击左侧Scene Treed中的Cube；然后在右侧的Material Inspector中修改颜色，在Scene View中查看修改后的效果
 
 - 可以发布您的编辑器
 
