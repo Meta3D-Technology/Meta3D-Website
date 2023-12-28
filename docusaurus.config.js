@@ -80,19 +80,19 @@ const config = {
             'aria-label': 'GitHub repository',
             // position: 'right',
           },
-          {
-            type: 'html',
-            value: `<iframe
-            src="https://ghbtns.com/github-btn.html?user=Meta3D-Technology&repo=Meta3D&type=star&count=true&size=large"
-            // frameborder="0"
-            style={ReactDOM.Style.make(~borderWidth="0px", ())}
-            scrolling="0"
-            width="170"
-            height="30"
-            title="GitHub"
-          />`,
-            position: 'right',
-          },
+          // {
+          //   type: 'html',
+          //   value: `<iframe
+          //   src="https://ghbtns.com/github-btn.html?user=Meta3D-Technology&repo=Meta3D&type=star&count=true&size=large"
+          //   // frameborder="0"
+          //   style={ReactDOM.Style.make(~borderWidth="0px", ())}
+          //   scrolling="0"
+          //   width="170"
+          //   height="30"
+          //   title="GitHub"
+          // />`,
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
