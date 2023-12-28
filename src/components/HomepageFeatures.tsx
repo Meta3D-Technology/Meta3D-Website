@@ -18,7 +18,8 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         {/* 一切皆由扩展组成，扩展本身也可以再次扩展 */}
-        通过组装多个扩展，积木式搭建自己的“Web3D引擎或编辑器”
+        {/* 通过组装多个扩展，积木式搭建自己的“Web3D引擎或编辑器” */}
+        积木式搭建自己的“Web3D编辑器”，完全可扩展
       </>
     ),
   },
@@ -48,7 +49,8 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         {/* 100%代码开源；直接用Web3钱包登录 */}
-        拥抱Web3，完全开源，建设共享互助开放的Web3D生态
+        {/* 拥抱Web3，完全开源，建设共享互助开放的Web3D生态 */}
+        拥抱Web3，完全开源
       </>
     ),
   },

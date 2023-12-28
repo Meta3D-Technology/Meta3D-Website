@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "开源Web3D低代码平台",
-  tagline: "致力于建设共享互助开放的Web3D生态，让Web3D引擎和编辑器开发轻而易举",
+  tagline: "快速搭建Web3D编辑器，共建开放互助的web3d生态",
   // url: 'https://meta3d-4g18u7z10c8427f9-1302358347.tcloudbaseapp.com/website',
   url: 'https://meta3d-website.4everland.app/',
   baseUrl: '/',
@@ -46,10 +46,10 @@ const config = {
     ({
       navbar: {
         title: 'Meta3D',
-        // logo: {
-        //   alt: 'My Site Logo',
-        //   src: 'img/logo.svg',
-        // },
+        logo: {
+          alt: 'My Site Logo',
+          src: 'img/favicon.ico',
+        },
         items: [
           {
             href: 'https://meta3d-production-5eol5gce9a6b9c-1302358347.tcloudbaseapp.com/',
@@ -75,7 +75,23 @@ const config = {
           {
             href: 'https://github.com/Meta3D-Technology/Meta3D',
             label: 'GitHub',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub repository',
             // position: 'right',
+          },
+          {
+            type: 'html',
+            value: `<iframe
+            src="https://ghbtns.com/github-btn.html?user=Meta3D-Technology&repo=Meta3D&type=star&count=true&size=large"
+            // frameborder="0"
+            style={ReactDOM.Style.make(~borderWidth="0px", ())}
+            scrolling="0"
+            width="170"
+            height="30"
+            title="GitHub"
+          />`,
+            position: 'right',
           },
         ],
       },

@@ -89,7 +89,6 @@ TODO update platform/frontend -> TODO link
 
 
 
-- TODO release: show changelog
 
 - TODO 更新一句话口号
 快速搭建Web3D编辑器，共建开放互助的web3d生态
@@ -104,32 +103,29 @@ TODO update platform/frontend -> TODO link
 
 
 
-- TODO 制作宣传视频（<1min）
+# - TODO 制作宣传视频（<1min）
 
-剪辑+快进+音乐
+# 剪辑+快进+音乐
 
-快速演示整个功能
+# 快速演示整个功能
 
-TODO first modal guide add this video
-
-
+# TODO first modal guide add this video
 
 
 
 
-- TODO 给出多个gif，展示各种特性
-e.g. 展示搭建编辑器（包括引擎）、使用编辑器开发web3d应用  的过程、自定义Menu等ui control。。。。。。
 
-  - TODO update doc
-  - TODO update 官网
-  - 参考：
 
-https://cn.nocobase.com/
-  - TODO update README
-    update snapshot
-    add gif
+# - TODO 给出多个gif，展示各种特性
+# e.g. 展示搭建编辑器（包括引擎）、使用编辑器开发web3d应用  的过程、自定义Menu等ui control。。。。。。
 
-    add contributors: show avater
+#   - TODO update doc
+#   - TODO update 官网
+#   - 参考：
+
+# https://cn.nocobase.com/
+
+
 
 
 
@@ -141,3 +137,25 @@ TODO https://github.com/Meta3D-Technology/Meta3D/discussions/43 add FAQ link
 
 
 TODO website: finish all TODOs
+
+
+
+* TODO 文档优化
+
+TODO resize 简介->图片 size
+
+TODO 压缩所有的图片
+
+
+
+
+* TODO more
+
+- TODO update README
+  update snapshot
+  add gif
+
+  add contributors: show avater
+
+
+TODO release: show changelog
