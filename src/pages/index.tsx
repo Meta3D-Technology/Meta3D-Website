@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://meta3d-production-5eol5gce9a6b9c-1302358347.tcloudbaseapp.com/">
+            to="https://meta3d-local-9gacdhjl439cff76-1302358347.tcloudbaseapp.com/">
             进入平台
           </Link>
         </div>

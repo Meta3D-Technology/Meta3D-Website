@@ -52,7 +52,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://meta3d-production-5eol5gce9a6b9c-1302358347.tcloudbaseapp.com/',
+            href: 'https://meta3d-local-9gacdhjl439cff76-1302358347.tcloudbaseapp.com/',
             // href: 'https://meta3d-production-6eaj4630a6b9e7-1302358347.tcloudbaseapp.com/platform/',
             label: '进入平台',
           },
