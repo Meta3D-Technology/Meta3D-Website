@@ -10,7 +10,27 @@ type UsageItem = {
 
 const UsageList: UsageItem[] = [
   {
+    title: 'Web3D应用',
+    // TODO all: replace image
+    image: '/img/编辑器.jpg',
+    description: (
+      <>
+        {/* 如编辑器、智慧城市、游戏等各种类型的Web3D应用 */}
+      </>
+    ),
+  },
+  {
     title: 'Web3D编辑器',
+    // TODO all: replace image
+    image: '/img/编辑器.jpg',
+    description: (
+      <>
+        {/* 如编辑器、智慧城市、游戏等各种类型的Web3D应用 */}
+      </>
+    ),
+  },
+  {
+    title: 'Web3D引擎',
     // TODO all: replace image
     image: '/img/编辑器.jpg',
     description: (
